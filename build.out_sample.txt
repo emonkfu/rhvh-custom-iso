@@ -1,0 +1,187 @@
+#-# Generating ISO image ...
+genisoimage 1.1.11 (Linux)
+Scanning /u/Documents/RHV-H_custom/BUILD
+Scanning /u/Documents/RHV-H_custom/BUILD/kickstart
+Scanning /u/Documents/RHV-H_custom/BUILD/images
+Scanning /u/Documents/RHV-H_custom/BUILD/images/pxeboot
+Excluded: /u/Documents/RHV-H_custom/BUILD/images/pxeboot/TRANS.TBL
+Excluded: /u/Documents/RHV-H_custom/BUILD/images/TRANS.TBL
+Scanning /u/Documents/RHV-H_custom/BUILD/isolinux
+Excluded: /u/Documents/RHV-H_custom/BUILD/isolinux/TRANS.TBL
+Excluded by match: /u/Documents/RHV-H_custom/BUILD/isolinux/boot.cat
+Scanning /u/Documents/RHV-H_custom/BUILD/repodata
+Excluded: /u/Documents/RHV-H_custom/BUILD/repodata/TRANS.TBL
+Scanning /u/Documents/RHV-H_custom/BUILD/EFI
+Scanning /u/Documents/RHV-H_custom/BUILD/EFI/BOOT
+Scanning /u/Documents/RHV-H_custom/BUILD/EFI/BOOT/fonts
+Excluded: /u/Documents/RHV-H_custom/BUILD/EFI/BOOT/fonts/TRANS.TBL
+Excluded: /u/Documents/RHV-H_custom/BUILD/EFI/BOOT/TRANS.TBL
+Scanning /u/Documents/RHV-H_custom/BUILD/Packages
+Excluded: /u/Documents/RHV-H_custom/BUILD/Packages/TRANS.TBL
+Scanning /u/Documents/RHV-H_custom/BUILD/LiveOS
+Excluded: /u/Documents/RHV-H_custom/BUILD/LiveOS/TRANS.TBL
+Excluded: /u/Documents/RHV-H_custom/BUILD/TRANS.TBL
+Using REDHA000.RPM;1 for  /u/Documents/RHV-H_custom/BUILD/Packages/redhat-virtualization-host-productimg-4.2-2.1.el7.x86_64.rpm (redhat-virtualization-host-image-update-4.2-20180508.0.el7_5.noarch.rpm)
+Writing:   Initial Padblock                        Start Block 0
+Done with: Initial Padblock                        Block(s)    16
+Writing:   Primary Volume Descriptor               Start Block 16
+Done with: Primary Volume Descriptor               Block(s)    1
+Writing:   Eltorito Volume Descriptor              Start Block 17
+Size of boot image is 4 sectors -> No emulation
+Size of boot image is 17992 sectors -> No emulation
+Done with: Eltorito Volume Descriptor              Block(s)    1
+Writing:   Joliet Volume Descriptor                Start Block 18
+Done with: Joliet Volume Descriptor                Block(s)    1
+Writing:   End Volume Descriptor                   Start Block 19
+Done with: End Volume Descriptor                   Block(s)    1
+Writing:   Version block                           Start Block 20
+Done with: Version block                           Block(s)    1
+Writing:   Path table                              Start Block 21
+Done with: Path table                              Block(s)    4
+Writing:   Joliet path table                       Start Block 25
+Done with: Joliet path table                       Block(s)    4
+Writing:   Directory tree                          Start Block 29
+Done with: Directory tree                          Block(s)    12
+Writing:   Joliet directory tree                   Start Block 41
+Done with: Joliet directory tree                   Block(s)    11
+Writing:   Directory tree cleanup                  Start Block 52
+Done with: Directory tree cleanup                  Block(s)    0
+Writing:   Extension record                        Start Block 52
+Done with: Extension record                        Block(s)    1
+Writing:   The File(s)                             Start Block 53
+  0.85% done, estimate finish Fri Dec 14 14:43:45 2018
+  1.70% done, estimate finish Fri Dec 14 14:43:45 2018
+  2.56% done, estimate finish Fri Dec 14 14:43:45 2018
+  3.41% done, estimate finish Fri Dec 14 14:43:45 2018
+  4.26% done, estimate finish Fri Dec 14 14:43:45 2018
+  5.11% done, estimate finish Fri Dec 14 14:43:45 2018
+  5.97% done, estimate finish Fri Dec 14 14:43:45 2018
+  6.82% done, estimate finish Fri Dec 14 14:43:45 2018
+  7.67% done, estimate finish Fri Dec 14 14:43:45 2018
+  8.53% done, estimate finish Fri Dec 14 14:43:45 2018
+  9.38% done, estimate finish Fri Dec 14 14:43:45 2018
+ 10.23% done, estimate finish Fri Dec 14 14:43:45 2018
+ 11.08% done, estimate finish Fri Dec 14 14:43:45 2018
+ 11.93% done, estimate finish Fri Dec 14 14:43:45 2018
+ 12.79% done, estimate finish Fri Dec 14 14:43:45 2018
+ 13.64% done, estimate finish Fri Dec 14 14:43:45 2018
+ 14.49% done, estimate finish Fri Dec 14 14:43:45 2018
+ 15.34% done, estimate finish Fri Dec 14 14:43:45 2018
+ 16.20% done, estimate finish Fri Dec 14 14:43:45 2018
+ 17.05% done, estimate finish Fri Dec 14 14:43:45 2018
+ 17.90% done, estimate finish Fri Dec 14 14:43:45 2018
+ 18.75% done, estimate finish Fri Dec 14 14:43:45 2018
+ 19.61% done, estimate finish Fri Dec 14 14:43:45 2018
+ 20.46% done, estimate finish Fri Dec 14 14:43:45 2018
+ 21.31% done, estimate finish Fri Dec 14 14:43:45 2018
+ 22.16% done, estimate finish Fri Dec 14 14:43:45 2018
+ 23.02% done, estimate finish Fri Dec 14 14:43:45 2018
+ 23.87% done, estimate finish Fri Dec 14 14:43:45 2018
+ 24.72% done, estimate finish Fri Dec 14 14:43:45 2018
+ 25.57% done, estimate finish Fri Dec 14 14:43:45 2018
+ 26.43% done, estimate finish Fri Dec 14 14:43:45 2018
+ 27.28% done, estimate finish Fri Dec 14 14:43:45 2018
+ 28.13% done, estimate finish Fri Dec 14 14:43:45 2018
+ 28.98% done, estimate finish Fri Dec 14 14:43:45 2018
+ 29.84% done, estimate finish Fri Dec 14 14:43:45 2018
+ 30.69% done, estimate finish Fri Dec 14 14:43:45 2018
+ 31.54% done, estimate finish Fri Dec 14 14:43:45 2018
+ 32.39% done, estimate finish Fri Dec 14 14:43:45 2018
+ 33.25% done, estimate finish Fri Dec 14 14:43:45 2018
+ 34.10% done, estimate finish Fri Dec 14 14:43:45 2018
+ 34.95% done, estimate finish Fri Dec 14 14:43:45 2018
+ 35.80% done, estimate finish Fri Dec 14 14:43:45 2018
+ 36.66% done, estimate finish Fri Dec 14 14:43:45 2018
+ 37.51% done, estimate finish Fri Dec 14 14:43:45 2018
+ 38.36% done, estimate finish Fri Dec 14 14:43:45 2018
+ 39.21% done, estimate finish Fri Dec 14 14:43:45 2018
+ 40.07% done, estimate finish Fri Dec 14 14:43:45 2018
+ 40.92% done, estimate finish Fri Dec 14 14:43:45 2018
+ 41.77% done, estimate finish Fri Dec 14 14:43:45 2018
+ 42.62% done, estimate finish Fri Dec 14 14:43:45 2018
+ 43.48% done, estimate finish Fri Dec 14 14:43:45 2018
+ 44.33% done, estimate finish Fri Dec 14 14:43:45 2018
+ 45.18% done, estimate finish Fri Dec 14 14:43:45 2018
+ 46.03% done, estimate finish Fri Dec 14 14:43:45 2018
+ 46.88% done, estimate finish Fri Dec 14 14:43:45 2018
+ 47.74% done, estimate finish Fri Dec 14 14:43:45 2018
+ 48.59% done, estimate finish Fri Dec 14 14:43:45 2018
+ 49.44% done, estimate finish Fri Dec 14 14:43:45 2018
+ 50.29% done, estimate finish Fri Dec 14 14:43:45 2018
+ 51.15% done, estimate finish Fri Dec 14 14:43:45 2018
+ 52.00% done, estimate finish Fri Dec 14 14:43:45 2018
+ 52.85% done, estimate finish Fri Dec 14 14:43:45 2018
+ 53.70% done, estimate finish Fri Dec 14 14:43:45 2018
+ 54.56% done, estimate finish Fri Dec 14 14:43:45 2018
+ 55.41% done, estimate finish Fri Dec 14 14:43:45 2018
+ 56.26% done, estimate finish Fri Dec 14 14:43:45 2018
+ 57.11% done, estimate finish Fri Dec 14 14:43:45 2018
+ 57.97% done, estimate finish Fri Dec 14 14:43:45 2018
+ 58.82% done, estimate finish Fri Dec 14 14:43:45 2018
+ 59.67% done, estimate finish Fri Dec 14 14:43:45 2018
+ 60.52% done, estimate finish Fri Dec 14 14:43:45 2018
+ 61.37% done, estimate finish Fri Dec 14 14:43:45 2018
+ 62.23% done, estimate finish Fri Dec 14 14:43:45 2018
+ 63.08% done, estimate finish Fri Dec 14 14:43:45 2018
+ 63.93% done, estimate finish Fri Dec 14 14:43:45 2018
+ 64.78% done, estimate finish Fri Dec 14 14:43:45 2018
+ 65.64% done, estimate finish Fri Dec 14 14:43:45 2018
+ 66.49% done, estimate finish Fri Dec 14 14:43:45 2018
+ 67.34% done, estimate finish Fri Dec 14 14:43:45 2018
+ 68.20% done, estimate finish Fri Dec 14 14:43:45 2018
+ 69.05% done, estimate finish Fri Dec 14 14:43:45 2018
+ 69.90% done, estimate finish Fri Dec 14 14:43:45 2018
+ 70.75% done, estimate finish Fri Dec 14 14:43:45 2018
+ 71.60% done, estimate finish Fri Dec 14 14:43:45 2018
+ 72.46% done, estimate finish Fri Dec 14 14:43:45 2018
+ 73.31% done, estimate finish Fri Dec 14 14:43:45 2018
+ 74.16% done, estimate finish Fri Dec 14 14:43:46 2018
+ 75.01% done, estimate finish Fri Dec 14 14:43:46 2018
+ 75.87% done, estimate finish Fri Dec 14 14:43:46 2018
+ 76.72% done, estimate finish Fri Dec 14 14:43:46 2018
+ 77.57% done, estimate finish Fri Dec 14 14:43:46 2018
+ 78.42% done, estimate finish Fri Dec 14 14:43:46 2018
+ 79.28% done, estimate finish Fri Dec 14 14:43:46 2018
+ 80.13% done, estimate finish Fri Dec 14 14:43:46 2018
+ 80.98% done, estimate finish Fri Dec 14 14:43:46 2018
+ 81.83% done, estimate finish Fri Dec 14 14:43:46 2018
+ 82.69% done, estimate finish Fri Dec 14 14:43:46 2018
+ 83.54% done, estimate finish Fri Dec 14 14:43:46 2018
+ 84.39% done, estimate finish Fri Dec 14 14:43:46 2018
+ 85.24% done, estimate finish Fri Dec 14 14:43:46 2018
+ 86.09% done, estimate finish Fri Dec 14 14:43:46 2018
+ 86.95% done, estimate finish Fri Dec 14 14:43:46 2018
+ 87.80% done, estimate finish Fri Dec 14 14:43:46 2018
+ 88.65% done, estimate finish Fri Dec 14 14:43:46 2018
+ 89.50% done, estimate finish Fri Dec 14 14:43:46 2018
+ 90.36% done, estimate finish Fri Dec 14 14:43:46 2018
+ 91.21% done, estimate finish Fri Dec 14 14:43:46 2018
+ 92.06% done, estimate finish Fri Dec 14 14:43:46 2018
+ 92.91% done, estimate finish Fri Dec 14 14:43:46 2018
+ 93.77% done, estimate finish Fri Dec 14 14:43:46 2018
+ 94.62% done, estimate finish Fri Dec 14 14:43:46 2018
+ 95.47% done, estimate finish Fri Dec 14 14:43:46 2018
+ 96.32% done, estimate finish Fri Dec 14 14:43:46 2018
+ 97.18% done, estimate finish Fri Dec 14 14:43:46 2018
+ 98.03% done, estimate finish Fri Dec 14 14:43:46 2018
+ 98.88% done, estimate finish Fri Dec 14 14:43:46 2018
+ 99.73% done, estimate finish Fri Dec 14 14:43:46 2018
+Total translation table size: 13937
+Total rockridge attributes bytes: 7177
+Total directory bytes: 20480
+Path table size(bytes): 156
+Done with: The File(s)                             Block(s)    586361
+Writing:   Ending Padblock                         Start Block 586414
+Done with: Ending Padblock                         Block(s)    150
+Max brk space used 1b000
+586564 extents written (1145 MB)
+#-# Making ISO UEFI bootable ...
+isohybrid: Warning: more than 1024 cylinders: 1146
+isohybrid: Not all BIOSes will be able to boot this device
+#-# Adding MD5 to ISO ...
+Inserting md5sum into iso image...
+md5 = 2382666676473ceb35a52317384fb861
+Inserting fragment md5sums into iso image...
+fragmd5 = 1a2ed258b98f54bce224132212c779243df316d2fd4e8342ec6c3ebb2fca
+frags = 20
+Setting supported flag to 0
