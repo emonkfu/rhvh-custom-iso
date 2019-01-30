@@ -1,0 +1,22 @@
+%pre
+cd /tmp
+rpm2cpio vi/run/install/repo/Packages/redhat-virtualization-host-image-update*|cpio -ivd
+squashfs=$(find|grep squashfs|grep -v meta)
+ln -s $squashfs /tmp/squashfs
+%end
+liveimg --url=file:///tmp/squashfs
+clearpart --all
+autopart --type=thinp
+rootpw --plaintext ##PASSWORD##
+timezone --utc US/Eastern
+lang en_US.UTF-8
+keyboard --vckeymap=us --xlayouts=''
+network --bootproto=static --hostname=##FQDN_HOSTNAME## --device=bond0  --ip=##IP_ADDRESS## --netmask=##NETMASK## --gateway=##GATEWAY## --nameserver=##DNS_1## --vlanid=##VLAN## --noipv6 --bondopts=miimon=100,mode=802.3ad,lacp_rate=1  --bondslaves=enp6s0f1,enp175s0f1
+zerombr
+text
+
+reboot
+
+%post --erroronfail
+imgbase layout --init
+%end
