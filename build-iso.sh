@@ -74,9 +74,6 @@ function update_efiboot () {
 }
 
 function iso_build () {
-# TMPTMP
-echo "BUILDING!"
-exit
   # build ISO from files
   ISO_NAME="$(iso_name)"
   cd "${ISO_BASEDIR}"
