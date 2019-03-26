@@ -6,3 +6,5 @@ including a generic kickstart file showing some options available.
 
 Script included to build the new ISO from modified files.
 
+Starting work on code to prepare a BUILD directory from scratch using
+RHV-H ISO downloaded from access.redhat.com.

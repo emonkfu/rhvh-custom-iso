@@ -28,6 +28,20 @@ ISO_NOTE="#-# "
 # if exists and is readable, source .rc file for variables
 ISO_RCFILE="$(echo "$0" | sed 's/\.sh$//;').rc"
 
+# name of this program
+ISO_PROGNAME="$(basename "${0}")"
+
+case "$(echo "${1}" | sed 's/^-*//;')" in
+prep|PREP|p|P)
+  # default to prep ISO build files
+  ISO_MODE="PREP"
+  ;;
+build|BUILD|b|B|*)
+  # default to build ISO
+  ISO_MODE="BUILD"
+  ;;
+esac
+
 function iso_name () {
   # this needs work
   grep "LABEL=" BUILD/isolinux/isolinux.cfg | head -n1 | \
@@ -60,6 +74,9 @@ function update_efiboot () {
 }
 
 function iso_build () {
+# TMPTMP
+echo "BUILDING!"
+exit
   # build ISO from files
   ISO_NAME="$(iso_name)"
   cd "${ISO_BASEDIR}"
@@ -103,9 +120,15 @@ function main () {
     echo "${ISO_NOTE}Used ISO_RCFILE='${ISO_RCFILE}'"
     source "${ISO_RCFILE}"
   fi
-  # determine if running in BUILD or PREP mode, run accordingly
-# TMPTMP for now just run BUILD mode
-iso_build
+  # run according to BUILD or PREP mode
+  case "${ISO_MODE}" in
+  PREP)
+    iso_prep
+  ;;
+  BUILD|*)
+    iso_build
+  ;;
+  esac
 }
 
 main 2>&1 | tee build.out
